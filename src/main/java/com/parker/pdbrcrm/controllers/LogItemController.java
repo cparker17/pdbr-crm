@@ -1,6 +1,5 @@
 package com.parker.pdbrcrm.controllers;
 
-import com.parker.pdbrcrm.models.LeadDates;
 import com.parker.pdbrcrm.models.LogItem;
 import com.parker.pdbrcrm.services.LogItemService;
 import org.springframework.beans.factory.annotation.Autowired;

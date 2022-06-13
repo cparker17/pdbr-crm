@@ -6,6 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.time.LocalDate;
 
 @Getter
 @Setter
@@ -18,4 +19,7 @@ public class LogItem {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+    private LocalDate dateAdded;
+
+    private String description;
 }
